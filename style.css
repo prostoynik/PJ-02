@@ -1374,6 +1374,8 @@ h4 {
     width: 925px;
     height: 465px;
     background-image: url(img/map.jpg);
+    background-position: center;
+    background-size: inherit;
     margin: 0 auto;
     margin-top: 53px;
 }
