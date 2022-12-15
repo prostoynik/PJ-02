@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="adaptive.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Yeseva+One&display=swap" rel="stylesheet">
@@ -47,7 +48,7 @@
                 <h1 class="title_blok_1">Turnkey Repair in the <br> city of <span
                         class="town_blok_1">Rostov-on-Don</span></h1>
                 <h3 class="text_blok_1">Get ready-made turnkey repairs on time<br>with work time saving up to 45 days
-                    and 20% from<br>cost of materials due to the organization of work</h3>
+                    and 20% from cost of materials due to the organization of work</h3>
                 <div class="buttons_blok_1">
                     <button class="button">CALCULATE THE COST</button>
                     <button class="button active_button">SUBMIT YOUR APPLICATION</button>
@@ -66,8 +67,11 @@
                     <div class="blok_2_left">
                         <h2>Completed<br>projects</h2>
                         <p>Only a small part of the work performed by our company is presented on the site. For 14 years
-                            on
-                            in the construction<br>market we have made happy more than 1000 families</p>
+                            on in the construction<br>market we have made happy more than 1000 families
+                        </p>
+                        <div class="mask">
+                            <img src="img/MaskGroup.png" alt="">
+                        </div>
                         <div class="containercp">
                             <ul class="completed_projects">
                                 <li>
@@ -114,114 +118,118 @@
                     <img class="img_oc" src="img/Step2/Group.png">
                     <img class="line2_oc" src="img/Step2/Rectangle%206.8.png">
                 </div>
-                <img class="video_oc" src="img/video.jpg">
-                <div class="overlay_video_oc">
-                    <button class="play_oc"><img src="img/playvideo.png"></button>
+                <div class="video_oc">
+                    <div class="play_btn">
+                        <button class="play_oc"><img src="img/playvideo.png"></button>
+                    </div>
                 </div>
 
             </div>
+            <!--            <div class="overlay_video_oc">-->
 
-            <div class="request">
-                <div class="img_line">
-                    <img class="line" src="img/line.png">
-                    <p>At each facility, a camera is installed that broadcasts the progress of work on the clock. At any
-                        time, you can go to our website and monitor the progress of work in your apartment. You can
-                        watch
-                        the live broadcast from one of our facilities!<br>Leave a request below and you will receive a
-                        link
-                        to the broadcast.</p>
-                </div>
+            <!--            </div>-->
 
-                <!-- blok_request_for_broadcast-->
+        </div>
 
-                <div class="request_for_broadcast">
-                    <ul class="request_inner">
-                        <li class="request_inner_withline">
-                            <p>Name</p>
-                            <input type="text" placeholder="What is your name:"/>
-                        </li>
-                        <li class="request_inner_withline">
-                            <p>Phone</p>
-                            <input type="text" placeholder="Your phone number:"/>
-                        </li>
-                        <li>
-                            <button class="button">Submit</button>
-                        </li>
-                    </ul>
-                </div>
-                <!--<div class="agree">
-                    <img src="img/galka.png" alt="">
-                    <p class="textagree">I agree to the processing of personal data</p>
-                </div>-->
-                <div class="first-checkbox">
-                    <label class="label">
-                        <input type="checkbox" class="checkbox">
-                        <span class="fake"></span>
-                        <span class="text">I agree to the processing of personal data.</span>
-                    </label>
+        <div class="request">
+            <div class="img_line">
+                <img class="line" src="img/line.png">
+                <p>At each facility, a camera is installed that broadcasts the progress of work on the clock. At any
+                    time, you can go to our website and monitor the progress of work in your apartment. You can
+                    watch the live broadcast from one of our facilities!<br>Leave a request below and you will receive a
+                    link to the broadcast.</p>
+            </div>
+
+            <!-- blok_request_for_broadcast-->
+
+            <div class="request_for_broadcast">
+                <ul class="request_inner">
+                    <li class="request_inner_withline">
+                        <p>Name</p>
+                        <input type="text" placeholder="What is your name:"/>
+                    </li>
+                    <li class="request_inner_withline">
+                        <p>Phone</p>
+                        <input type="text" placeholder="Your phone number:"/>
+                    </li>
+                    <li>
+                        <button class="button">Submit</button>
+                    </li>
+                </ul>
+            </div>
+            <!--<div class="agree">
+                <img src="img/galka.png" alt="">
+                <p class="textagree">I agree to the processing of personal data</p>
+            </div>-->
+            <div class="first-checkbox">
+                <label class="label">
+                    <input type="checkbox" class="checkbox">
+                    <span class="fake"></span>
+                    <span class="text">I agree to the processing of personal data.</span>
+                </label>
+            </div>
+        </div>
+        <!-- blok_typesofrepair -->
+        <div class="types">
+            <div class="typesofrepair">TYPES OF REPAIR
+                <div class="repair">
+                    <img class="molot2" src="img/repair.png">
                 </div>
             </div>
-            <!-- blok_typesofrepair -->
-            <div class="types">
-                <div class="typesofrepair">TYPES OF REPAIR
-                    <div class="repair">
-                        <img class="molot2" src="img/repair.png">
+            <div class="containertr">
+                <div class="tr_inner_1">
+                    <img class="repairfoto" src="img/repair1.jpg" alt="">
+                    <div class="tr_inner_2">
+                        <h5>Redecorating</h5>
+                        <ul>
+                            <li class="tr">Dismantling of old coatings</li>
+                            <li class="tr">Wallpapering</li>
+                            <li class="tr">Painting walls and ceilings</li>
+                            <li class="tr">Laying flooring</li>
+                            <li class="tr">Replacing plumbing</li>
+                            <li class="tr">Replacing sockets and switches</li>
+                            <li class="tr">Replacing doors</li>
+                        </ul>
+                        <button class="fromm2">from 900 rub / m2</button>
                     </div>
+
                 </div>
-                <div class="containertr">
-                    <div class="tr_inner_1">
-                        <img class="repairfoto" src="img/repair1.jpg" alt="">
-                        <div class="tr_inner_2">
-                            <h5>Redecorating</h5>
-                            <ul>
-                                <li class="tr">Dismantling of old coatings</li>
-                                <li class="tr">Wallpapering</li>
-                                <li class="tr">Painting walls and ceilings</li>
-                                <li class="tr">Laying flooring</li>
-                                <li class="tr">Replacing plumbing</li>
-                                <li class="tr">Replacing sockets and switches</li>
-                                <li class="tr">Replacing doors</li>
-                            </ul>
-                            <button class="fromm2">from 900 rub / m2</button>
-                        </div>
-
+                <div class="tr_inner_1">
+                    <img class="repairfoto" src="img/repair2.jpg" alt="">
+                    <div class="tr_inner_2">
+                        <h5>Overhaul</h5>
+                        <ul>
+                            <li class="tr">Dismantling of old coatings</li>
+                            <li class="tr">Wallpapering</li>
+                            <li class="tr">Painting walls and ceilings</li>
+                            <li class="tr">Laying flooring</li>
+                            <li class="tr">Replacing plumbing</li>
+                            <li class="tr">Replacing sockets and switches</li>
+                            <li class="tr">Replacing doors</li>
+                        </ul>
+                        <button class="fromm2">from 1800 rub / m2</button>
                     </div>
-                    <div class="tr_inner_1">
-                        <img class="repairfoto" src="img/repair2.jpg" alt="">
-                        <div class="tr_inner_2">
-                            <h5>Overhaul</h5>
-                            <ul>
-                                <li class="tr">Dismantling of old coatings</li>
-                                <li class="tr">Wallpapering</li>
-                                <li class="tr">Painting walls and ceilings</li>
-                                <li class="tr">Laying flooring</li>
-                                <li class="tr">Replacing plumbing</li>
-                                <li class="tr">Replacing sockets and switches</li>
-                                <li class="tr">Replacing doors</li>
-                            </ul>
-                            <button class="fromm2">from 1800 rub / m2</button>
-                        </div>
 
+                </div>
+                <div class="tr_inner_1">
+                    <img class="repairfoto" src="img/repair3.jpg" alt="">
+                    <div class="tr_inner_2">
+                        <h5>Designer Repair</h5>
+                        <ul>
+                            <li class="tr">Dismantling of old coatings</li>
+                            <li class="tr">Wallpapering</li>
+                            <li class="tr">Painting walls and ceilings</li>
+                            <li class="tr">Laying flooring</li>
+                            <li class="tr">Replacing plumbing</li>
+                            <li class="tr">Replacing sockets and switches</li>
+                            <li class="tr">Replacing doors</li>
+                        </ul>
+                        <button class="fromm2">from 4000 rub / m2</button>
                     </div>
-                    <div class="tr_inner_1">
-                        <img class="repairfoto" src="img/repair3.jpg" alt="">
-                        <div class="tr_inner_2">
-                            <h5>Designer Repair</h5>
-                            <ul>
-                                <li class="tr">Dismantling of old coatings</li>
-                                <li class="tr">Wallpapering</li>
-                                <li class="tr">Painting walls and ceilings</li>
-                                <li class="tr">Laying flooring</li>
-                                <li class="tr">Replacing plumbing</li>
-                                <li class="tr">Replacing sockets and switches</li>
-                                <li class="tr">Replacing doors</li>
-                            </ul>
-                            <button class="fromm2">from 4000 rub / m2</button>
-                        </div>
 
-                    </div>
                 </div>
             </div>
+        </div>
         </div>
     </section>
 
