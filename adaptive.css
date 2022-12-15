@@ -9,7 +9,6 @@
         margin: 0 auto;
         width: 100%;
         max-width: 375px;
-
     }
 
     .navigation {
@@ -42,7 +41,6 @@
         left: 0;
         top: 0;
         height: auto;
-
     }
 
     .title_blok_1 {
@@ -101,10 +99,6 @@
         font-size: 14px;
     }
 
-    /*.overlay_video_oc{*/
-    /*    width: 100%;*/
-    /*    height: border-box;*/
-    /*}*/
     .video_oc {
         position: relative;
         width: 340px;
@@ -139,7 +133,6 @@
         height: 37px;
     }
 
-
     .request {
         background: #131313;
         margin-top: 180px;
@@ -151,7 +144,6 @@
     }
 
     .img_line p {
-        /*max-width: 340px ;*/
         color: #FFFFFF;
         font-size: 11px;
         line-height: 18.68px;
@@ -164,7 +156,6 @@
 
     .request_inner_withline {
         width: 47%;
-
     }
 
     .request_inner_withline input, .request_inner_withline p {
@@ -173,7 +164,6 @@
     }
 
     .request button {
-        /*width: 340px;*/
         position: absolute;
         min-width: 90%;
         padding: 0 auto;
@@ -289,8 +279,6 @@
     .blok_6_adr {
         max-width: 340px;
         margin-top: 350px;
-
-
     }
 
     .any {
@@ -300,17 +288,13 @@
 
     .nm_outer {
         flex-direction: column;
-        /*padding: 0 18px;*/
     }
 
     .nm, .qu {
         width: 100%;
     }
 
-    .qu {
-        /*padding: 0 18px;*/
-    }
-
+   
     footer{
         display: none;
     }
