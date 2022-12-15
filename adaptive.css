@@ -187,6 +187,14 @@
         margin-left: 18px;
     }
 
+    .blok_2 .first-checkbox{
+        text-align: left;
+    }
+
+    .first-checkbox .text1{
+        color: #FFFFFF;
+    }
+
     .blok_3 {
         display: none;
     }

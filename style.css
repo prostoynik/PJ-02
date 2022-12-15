@@ -559,9 +559,10 @@ h4 {
  }*/
 
 .first-checkbox{
-    /*text-align: center;*/
+    text-align: center;
     margin-left: 50px;
     margin-top: 10px;
+    color: #131313;
 
 }
 
@@ -591,13 +592,25 @@ h4 {
     opacity: 1;
 }
 
-.first-checkbox .text {
+.first-checkbox .text1 {
     font-family: 'Nunito Sans';
     /*font-style: normal;*/
     font-weight: 400;
     font-size: 14px;
     line-height: 163.68%;
-    color: #FFFFFF;;
+    color: #131313;
+    /*margin: 35px 0 0 5px;*/
+    /*margin-left: 5px;*/
+
+
+}
+.first-checkbox .text2 {
+    font-family: 'Nunito Sans';
+    /*font-style: normal;*/
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 163.68%;
+    color: #FFFFFF;
     /*margin: 35px 0 0 5px;*/
     /*margin-left: 5px;*/
 
@@ -865,6 +878,10 @@ h4 {
     line-height: 21px;
     color: rgba(255, 255, 255, 0.5);
 
+}
+
+.blok_3_right .first-checkbox{
+    text-align: left;
 }
 
 /*.agree_blok_3 {
